@@ -1,13 +1,41 @@
-div{
+#d1{
 
 font-size: 50px;
 background-color: bisque;
+display: grid;
+
 
 }
 
-span{
+#container{
 
+display: flex;
 font-size: 50px;
-background-color: aquamarine;
+justify-content: center;
+align-items: center;
+
+}
+
+#b1 {
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+padding: 20px ;
+border: 10px solid transparent;
+border-radius: 15px;
+margin: auto;
+width: 150px;
+box-shadow: 10px 10px 10px grey;
+
+
+}
+
+#b1:hover {
+  
+    background-origin: border-box;
+  background-clip: padding-box , border-box;
+  background-image: linear-gradient(white , white) , linear-gradient(to left , red , blue , green , yellow);
+
 
 }
